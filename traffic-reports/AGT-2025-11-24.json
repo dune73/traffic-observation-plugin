@@ -1,0 +1,315 @@
+{
+  "contact": "dune73",
+  "date": "2025-11-24",
+  "description": "1 day production logs on netnea.com",
+  "trafficType": "web",
+  "Protocol": [
+    {
+      "key": "HTTP/1.0",
+      "count": 46,
+      "percentage": 0.43
+    },
+    {
+      "key": "HTTP/1.1",
+      "count": 10733,
+      "percentage": 99.57
+    }
+  ],
+  "Method": [
+    {
+      "key": "HEAD",
+      "count": 197,
+      "percentage": 1.83
+    },
+    {
+      "key": "POST",
+      "count": 505,
+      "percentage": 4.69
+    },
+    {
+      "key": "GET",
+      "count": 10077,
+      "percentage": 93.49
+    }
+  ],
+  "LenFilename": {
+    "NumValues": 10779,
+    "Minimum": 1,
+    "Maximum": 173,
+    "Range": 172,
+    "Mean": 30.5148,
+    "Median": 14,
+    "StdandardDeviation": 23.5773,
+    "Variance": 555.891,
+    "CoefficientOfVariation": 0.772652
+  },
+  "LenQueryString": {
+    "NumValues": 1898,
+    "Minimum": 0,
+    "Maximum": 80,
+    "Range": 80,
+    "Mean": 10.4942,
+    "Median": 10,
+    "StdandardDeviation": 5.66646,
+    "Variance": 32.1088,
+    "CoefficientOfVariation": 0.539961
+  },
+  "NumQueryStringArgs": {
+    "NumValues": 10779,
+    "Minimum": 0,
+    "Maximum": 4,
+    "Range": 4,
+    "Mean": 0.176176,
+    "Median": 0,
+    "StdandardDeviation": 0.382428,
+    "Variance": 0.146251,
+    "CoefficientOfVariation": 2.17072
+  },
+  "NumReqHeaders": {
+    "NumValues": 10779,
+    "Minimum": 0,
+    "Maximum": 20,
+    "Range": 20,
+    "Mean": 7.07171,
+    "Median": 7,
+    "StdandardDeviation": 4.04288,
+    "Variance": 16.3449,
+    "CoefficientOfVariation": 0.571698
+  },
+  "LenCookies": {
+    "NumValues": 751,
+    "Minimum": 0,
+    "Maximum": 490,
+    "Range": 490,
+    "Mean": 67.4474,
+    "Median": 42,
+    "StdandardDeviation": 53.9298,
+    "Variance": 2908.42,
+    "CoefficientOfVariation": 0.799583
+  },
+  "NumCookies": {
+    "NumValues": 10779,
+    "Minimum": 0,
+    "Maximum": 6,
+    "Range": 6,
+    "Mean": 0.0998237,
+    "Median": 0,
+    "StdandardDeviation": 0.421893,
+    "Variance": 0.177993,
+    "CoefficientOfVariation": 4.22637
+  },
+  "ReqContentType": [
+    {
+      "key": "text/plain",
+      "count": 1,
+      "percentage": 0.11
+    },
+    {
+      "key": "text/xml",
+      "count": 1,
+      "percentage": 0.11
+    },
+    {
+      "key": "text/html",
+      "count": 4,
+      "percentage": 0.46
+    },
+    {
+      "key": "application/xml",
+      "count": 246,
+      "percentage": 28.18
+    },
+    {
+      "key": "application/json",
+      "count": 268,
+      "percentage": 30.7
+    },
+    {
+      "key": "application/x-www-form-urlencoded",
+      "count": 353,
+      "percentage": 40.44
+    }
+  ],
+  "ReqContentLength": {
+    "NumValues": 513,
+    "Minimum": 0,
+    "Maximum": 1574,
+    "Range": 1574,
+    "Mean": 192.452,
+    "Median": 0,
+    "StdandardDeviation": 248.077,
+    "Variance": 61542,
+    "CoefficientOfVariation": 1.28903
+  },
+  "StatusCode": [
+    {
+      "key": "502",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "key": "500",
+      "count": 2,
+      "percentage": 0.02
+    },
+    {
+      "key": "409",
+      "count": 3,
+      "percentage": 0.03
+    },
+    {
+      "key": "206",
+      "count": 5,
+      "percentage": 0.05
+    },
+    {
+      "key": "302",
+      "count": 8,
+      "percentage": 0.07
+    },
+    {
+      "key": "304",
+      "count": 40,
+      "percentage": 0.37
+    },
+    {
+      "key": "403",
+      "count": 726,
+      "percentage": 6.74
+    },
+    {
+      "key": "404",
+      "count": 978,
+      "percentage": 9.07
+    },
+    {
+      "key": "301",
+      "count": 1064,
+      "percentage": 9.87
+    },
+    {
+      "key": "503",
+      "count": 1124,
+      "percentage": 10.43
+    },
+    {
+      "key": "200",
+      "count": 6828,
+      "percentage": 63.35
+    }
+  ],
+  "NumRespHeaders": {
+    "NumValues": 10779,
+    "Minimum": 7,
+    "Maximum": 17,
+    "Range": 10,
+    "Mean": 10.8768,
+    "Median": 11,
+    "StdandardDeviation": 2.21354,
+    "Variance": 4.89975,
+    "CoefficientOfVariation": 0.20351
+  },
+  "RespContentType": [
+    {
+      "key": "application/atom+xml",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "key": "application/octet-stream",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "key": "text/x-sh",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "key": "application/pgp-keys",
+      "count": 2,
+      "percentage": 0.02
+    },
+    {
+      "key": "image/gif",
+      "count": 2,
+      "percentage": 0.02
+    },
+    {
+      "key": "application/pdf",
+      "count": 3,
+      "percentage": 0.03
+    },
+    {
+      "key": "application/x-ruby",
+      "count": 4,
+      "percentage": 0.04
+    },
+    {
+      "key": "font/woff",
+      "count": 5,
+      "percentage": 0.05
+    },
+    {
+      "key": "image/vnd.microsoft.icon",
+      "count": 10,
+      "percentage": 0.09
+    },
+    {
+      "key": "application/json",
+      "count": 11,
+      "percentage": 0.1
+    },
+    {
+      "key": "image/jpeg",
+      "count": 25,
+      "percentage": 0.23
+    },
+    {
+      "key": "text/plain",
+      "count": 139,
+      "percentage": 1.3
+    },
+    {
+      "key": "font/woff2",
+      "count": 204,
+      "percentage": 1.9
+    },
+    {
+      "key": "image/png",
+      "count": 334,
+      "percentage": 3.12
+    },
+    {
+      "key": "application/rss+xml",
+      "count": 605,
+      "percentage": 5.64
+    },
+    {
+      "key": "text/css",
+      "count": 610,
+      "percentage": 5.69
+    },
+    {
+      "key": "text/javascript",
+      "count": 824,
+      "percentage": 7.69
+    },
+    {
+      "key": "text/html",
+      "count": 7941,
+      "percentage": 74.06
+    }
+  ],
+  "RespContentLength": {
+    "NumValues": 9517,
+    "Minimum": 0,
+    "Maximum": 31071535,
+    "Range": 31071535,
+    "Mean": 24960,
+    "Median": 3887,
+    "StdandardDeviation": 515648,
+    "Variance": 265893000000,
+    "CoefficientOfVariation": 20.659
+  }
+}
