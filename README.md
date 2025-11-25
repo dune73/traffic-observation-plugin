@@ -136,6 +136,22 @@ $ echo $(pwgen 3 1 | tr "a-z" "A-Z")-$(date +%Y-%m-%d).json
 7PT-2025-11-24.json
 ```
 
+## Sampling Mode
+
+There are services where a log message for every request is far too much.
+
+The sampling mode of this plugin allows you to log only on a small percentage
+of requests.
+
+The variable supports numbers from 0.0 to 100. So a single digit after the
+dot is supported, effectively bringing you permille 
+(i.e. 1 permille means request in 1,000).
+
+The sampling mode is off by default. That means the plugin writes a log message for
+every request. If you want to use sampling, uncomment rule `9500020` 
+in `traffic-observation-config.conf` and set the variable `tx.traffic-observation-sampling_percentage` 
+as you see fit.
+
 
 ## License
 
